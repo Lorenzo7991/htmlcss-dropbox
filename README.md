@@ -22,3 +22,7 @@ La consegna è prevista per Lunedì 27 Novembre ore 18:00
 
 1. Creiamo delle classi riutilizzabili individuando gli elementi ricorrenti nel layout, capendo quindi come e cosa possiamo centralizzare per rendere il nostro codice il più possibile semplice, pulito e quindi mantenibile.
 Non lavoriamo ancora sul responsive, quindi la nostra pagina deve funzionare solo sul vostro desktop a larghezza intera.
+
+---
+
+![dropbox template](assets/img-rdm/screenshot.png "dropbox template")
