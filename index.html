@@ -7,9 +7,13 @@
     <meta name="author" content="lorenzo-classe116">
     <meta name="description" content="htmlcss-dropbox">
 
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'
+        integrity='sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=='
+        crossorigin='anonymous' />
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic"
         rel="stylesheet" />
+    <link rel="icon" href="assets/document-icon/favicon.ico" type="icon/ico">
     <link rel="stylesheet" href="css/style.css">
     <title>Dropbox</title>
 </head>
@@ -17,52 +21,112 @@
 
 <body>
     <div class="container">
-    <header>
-        <nav>
-            <div class="nav-menu left"></div>
-            <div class="nav-menu right"></div>
-        </nav>
-    </header>
-
-
-    <main>
-        <!-- main container -->
-        <div class="main-bg-container"></div>
-        <div class="main-container">
-
-            <!-- title advert container -->
-            <div class="title-advert"></div>
-             <!-- advert container with overflow img -->
-            <div class="top-advert">
-                <div class="col-text"></div>
-                <div class="col-img"></div>
+        <header class="nav-header">
+            <div class="menu-nav left">
+                <ul>
+                    <li><a href="#">
+                            <img src="assets/img/logo-small.png" alt="logo">
+                        </a></li>
+                    <li><a href="#">Perchè Dropbox</a></li>
+                    <li><a href="#">Funzioni</a></li>
+                    <li><a href="#">Piani e prezzi</a></li>
+                </ul>
             </div>
-
-
-        <!-- monthly plans title -->
-        <div class="title-plans"></div>
-        <!-- monthly plans checkbox -->
-        <div class="checkbox-plans"></div>
-        <!-- monthly plans container -->
-        <div class="plans">
-            <!-- monthly plans row -->
-            <div class="row-plans">
-                <div class="col-plans col-left"></div>
-                <div class="col-plans col-center"></div>
-                <div class="col-plans col-right"></div>
-                <div class="col-plans col-bottom"></div>
-             </div>
+            <div class="menu-nav right">
+                <ul>
+                    <li><a href="#">Supporto</a></li>
+                    <li><a href="#">Contatta l'ufficio vendite</a></li>
+                    <li><a href="#">Accedi</a></li>
+                    <li><a href="#" class="btn btn-small btn-nav">Inizia</a></li>
+                </ul>
             </div>
-        </div>
-        
-        <!-- partner's advert container-->
-        <div class="partners-advert">
-                <div class="col-img-partners"></div>
-                <div class="col-text-partners"></div>
-            </div>
+        </header>
 
-        </div>
-       </main>
+        <main>
+            <section id="jumbotron" class="jumbotron">
+                <div class="top-container">
+                    <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+                    <div class="jumbo row">
+                        <div class="left-col">
+                            <div class="jumbo-card">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ipsam itaque
+                                    error nesciunt rerum excepturi eos qui eligendi amet inventore, pariatur nisi, harum
+                                    accusantium beatae veritatis tempore optio temporibus eveniet? Lorem ipsum dolor
+                                    sit, amet consectetur adipisicing elit.</p>
+                                <a href="#monthly-plans" class="btn jumbo-btn">Inizia la tua prova gratuita</a>
+                                <p class="spacing-dw">Annulla in qualsiasi momento</p>
+                                <i class="fa-solid fa-arrow-down fa-4x"></i>
+                            </div>
+                        </div>
+                        <div class="right-col">
+                            <div class="jumbo-card">
+                                <img src="assets/img/jumbo.png" alt="jumbotron">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="monthly-plans" class="center-container">
+                <h2>Trova il piano business che fa per te</h2>
+                <div class="checkbox-billing">
+                    <i class="checkbox-icon-ticked fa-solid fa-circle-dot fa-lg"></i>
+                    <p>Fatturazione mensile</p>
+                    <i class="checkbox-icon-unticked fa-regular fa-circle-dot fa-lg"></i>
+                    <p>fatturazione annuale</p>
+                </div>
+
+                <div class="plans row">
+                    <div class="plans-col">
+                        <div class="plans-card">
+                            <div class="card-title"><i class="fa-solid fa-user fa-lg"></i>Singolo</div>
+                            <h2>Professional</h3>
+                            &euro;<span>12.00</span>
+                            <p>/mese</p>
+                            <div><i class="fa-solid fa-user fa-lg"></i>1 Utente</div>
+                            <div><i class="fa-solid fa-folder"></i>5 TB di spazio di archiviazione sicuro</div>
+
+                        </div>
+                    </div>
+                    <div class="plans-col">
+                        <div class="plans-card">
+
+                        </div>
+                    </div>
+                    <div class="plans-col">
+                        <div class="plans-card">
+
+                        </div>
+                    </div>
+
+                    <div class="full-plans-col">
+                        <div class="plans-card">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="partners-dropbox" class="center-container">
+                <div class="partners row">
+                    <div class="right-col">
+                        <div class="partners-card">
+                            <img class="img-hammered-control" src="assets/img/partner.png" alt="partners">
+                        </div>
+                    </div>
+                    <div class="left-col">
+                        <div class="partners-card">
+                            <h2>Entra in contatto con un partner drop box</h2>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+                    
+
+
+
+    
+    </main>
 
     <footer></footer>
     </div>
