@@ -31,8 +31,8 @@ h1 {
 }
 
 h2 {
-    font-size: 2.3rem;
-    padding-top: 30px;
+    font-size: 2.1rem;
+    padding-top: 40px;
 }
 
 h3 {
@@ -40,6 +40,15 @@ h3 {
     padding-top: 10px;
 }
 
+.btn:hover{
+    scale: 1.1;
+    box-shadow: 0 0 20px 5px white;
+
+}
+
+.link-text-decoration{
+    text-decoration: underline;
+}
 /*^ Utils */
 .container {
     max-width: 1600px;
@@ -55,6 +64,8 @@ main .center-container {
     max-width: 60%;
     margin: 0 auto;
 
+    /* border: 1px dotted; */
+
 }
 
 footer .container {
@@ -65,6 +76,7 @@ footer .container {
 }
 
 .btn {
+    color: black;
     padding: 10px 15px;
     display: inline-block;
     border: 1px solid;
@@ -80,7 +92,8 @@ footer .container {
     flex-wrap: wrap;
 
     min-height: 200px;
-
+   /*  border: 1px dotted;
+ */
 }
 
 .spacing-dw {
@@ -125,6 +138,10 @@ footer .container {
     border: transparent;
 }
 
+#btn-link-start{
+    color: white;
+}
+
 /*^ Main */
 /** Section jumbotron  */
 
@@ -139,7 +156,7 @@ footer .container {
     padding-top: 40px;
 }
 
-/** jumbotron - text column rules */
+/** Jumbotron - text column rules */
 .text-col {
     flex-basis: 40%;
     font-size: 13px;
@@ -154,7 +171,7 @@ footer .container {
     margin: 40px 0;
 }
 
-/**jumbotron - img column rules */
+/** Jumbotron - img column rules */
 .img-col {
     flex-basis: 60%;
 }
@@ -164,7 +181,7 @@ footer .container {
     margin-top: 35px;
 }
 
-/** Section checkbox monthly plans */
+/** Monthly plans - section checkbox */
 .checkbox-billing {
     display: flex;
     margin: 30px 0;
@@ -182,7 +199,7 @@ footer .container {
     margin: 0 10px 0 50px
 }
 
-/** Section plans grid  */
+/** Monthly plans - section plans grid  */
 .plans {
     gap: 30px;
 }
@@ -195,12 +212,10 @@ footer .container {
 
 .full-plans-col {
     flex-basis: 100%;
-
-    border: 1px dotted;
 }
 
 
-/** plans - cards content rules  */
+/** Plans - cards content rules  */
 .card-title {
     padding: 5px 0;
     display: flex;
@@ -216,15 +231,22 @@ footer .container {
     margin-right: 10px;
 }
 
+.top-price{
+    font-weight: 800;
+}
+
+.top-plan{
+    color: rgb(165, 163, 163);
+}
 
 .plans-card {
     font-size: 13px;
     border: 1px solid lightgray;
 }
 
+
 .plan-price {
     padding: 15px 15px 0 15px;
-    ;
     margin-bottom: 30px;
 }
 
@@ -233,14 +255,20 @@ footer .container {
     margin-bottom: 30px;
 }
 
+.icons-list li{
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+}
+
 .plan-recap {
     padding: 15px;
-    margin: 30px 0 150px;
+    margin-top: 30px;
 }
 
 
-.plans-card p {
-    margin: 12px 0;
+.plans-card li {
+    margin: 16px 0;
 }
 
 .plans-card i {
@@ -268,10 +296,8 @@ footer .container {
     text-align: center;
 }
 
-/** plans - full card */
 
-
-
+/** Plans - full card rules */
 .full-card-title{
     text-align: center;
 }
@@ -292,12 +318,12 @@ footer .container {
 }
 
 .center-card p{
-    margin-top: 30px;
+    margin: 30px 0;
 }
 
 /** Section dropbox-partners  */
 .partners {
-    margin-top: 100px;
+    margin: 100px 0;
 }
 
 .partners-img {
@@ -315,4 +341,42 @@ footer .container {
 
 .partners-btn {
     margin-top: 40px;
+}
+/** Section dropbox-busines */
+.dropbox-business {
+    gap: 10px;
+}
+
+#dropbox-business h2{
+    padding-bottom: 20px;
+}
+
+
+.col-dropbox-business {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc(100% / 3 - 20px / 3);
+
+}
+
+.card-dropbox-business{
+    padding: 15px;
+}
+
+
+.card-dropbox-business p{
+    font-size: 13px;
+    padding-top: 20px;
+}
+
+/** Section partners - partners title */
+.clients-title{
+    margin-right: 300px;
+    margin-top: 80px;
+}
+
+
+.clients-link{
+    font-size: 13px;
+    margin-top: 30px;
 }
